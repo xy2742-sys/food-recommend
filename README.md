@@ -1,2 +1,20 @@
-# food-recommend
-My idea is designed for those who wish to have better dietary choices or are struggling with what to eat every day. When someone clicks the button, the system will randomly recommend various types of recipes from around the world. If you are not satisfied, you can click a second time.
+# 吃点什么？
+
+一个帮助你决定今天吃什么的互动食谱灵感页。按偏好筛选，再点击「换一道试试」，探索来自世界各地的料理。
+
+## 本地预览
+
+直接用浏览器打开 `index.html` 即可，无需安装依赖或启动服务。
+
+## 功能
+
+- 随机推荐世界各地食谱，再次点击即可换一道
+- 按清爽轻食、高蛋白、30 分钟内和素食友好筛选
+- 展示料理介绍、准备时间、热量和难度
+- 适配手机和桌面屏幕
+
+## 文件
+
+- `index.html` 页面结构
+- `style.css` 样式与响应式布局
+- `script.js` 食谱数据和交互逻辑
