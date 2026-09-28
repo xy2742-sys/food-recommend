@@ -13,21 +13,21 @@
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="#top" aria-label="吃点什么首页"><span class="brand-mark">好</span><span>吃点什么<span class="brand-dot">.</span></span></a>
-    <span class="top-note"><span class="live-dot"></span> 一点灵感，好好吃饭</span>
+    <a class="brand" href="#top" aria-label="吃点什么首页"><span class="brand-mark" id="brand-mark">好</span><span id="brand-name">吃点什么<span class="brand-dot">.</span></span></a>
+    <div class="header-tools"><span class="top-note"><span class="live-dot"></span><span id="top-note-text">一点灵感，好好吃饭</span></span><label class="language-switch"><span aria-hidden="true">文A</span><select id="language-select" aria-label="选择语言"><option value="zh">中文</option><option value="en">English</option></select></label></div>
   </header>
 
   <main id="top">
     <section class="intro">
       <p class="eyebrow"><span>✳</span> YOUR DAILY FOOD COMPASS</p>
-      <h1>今天，<span>吃点什么？</span></h1>
-      <p class="intro-copy">选择一种心情，让来自世界各地的好味道<br class="desktop-break" />替你做决定。</p>
+      <h1><span id="headline-lead">今天，</span><span id="headline-accent">吃点什么？</span></h1>
+      <p class="intro-copy"><span id="intro-line-one">选择一种心情，让来自世界各地的好味道</span><br class="desktop-break" /><span id="intro-line-two">替你做决定。</span></p>
     </section>
 
-    <section class="discover" aria-label="发现今日食谱">
+    <section class="discover" id="discover" aria-label="发现今日食谱">
       <div class="controls">
-        <div class="control-heading"><span>01</span><div><strong>今天想吃得怎么样？</strong><small>选一个偏好，找到刚刚好的那一餐</small></div></div>
-        <div class="filter-list" role="group" aria-label="饮食偏好">
+        <div class="control-heading"><span>01</span><div><strong id="control-title">今天想吃得怎么样？</strong><small id="control-subtitle">选一个偏好，找到刚刚好的那一餐</small></div></div>
+        <div class="filter-list" id="filter-list" role="group" aria-label="饮食偏好">
           <button class="filter active" data-filter="all" aria-pressed="true"><span>✦</span> 随便来点</button>
           <button class="filter" data-filter="light" aria-pressed="false"><span>🥬</span> 清爽轻食</button>
           <button class="filter" data-filter="protein" aria-pressed="false"><span>⚡</span> 高蛋白</button>
@@ -53,11 +53,11 @@
           <div class="card-actions"><button class="shuffle-button" id="shuffle-button"><span class="shuffle-icon">⟳</span><span id="button-label">换一道试试</span><span class="button-arrow">→</span></button><span class="shuffle-hint" id="shuffle-hint">好主意值得多试几次</span></div>
         </div>
       </div>
-      <div class="bottom-note"><span>✳</span> 好好吃饭，不必想太多。</div>
+      <div class="bottom-note"><span>✳</span> <span id="bottom-note-text">好好吃饭，不必想太多。</span></div>
     </section>
   </main>
 
-  <footer><span>MADE FOR YOUR NEXT GOOD MEAL</span><span>灵感来自世界各地 · 每天都值得好好吃饭</span></footer>
+  <footer><span>MADE FOR YOUR NEXT GOOD MEAL</span><span id="footer-note">灵感来自世界各地 · 每天都值得好好吃饭</span></footer>
   <script src="script.js"></script>
 </body>
 </html>
