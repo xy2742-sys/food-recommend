@@ -1,21 +1,21 @@
-# 吃点什么？
+# What's for Dinner?
 
-一个帮助你决定今天吃什么的互动食谱灵感页。按偏好筛选，再点击「换一道试试」，探索来自世界各地的料理。
+An interactive recipe discovery page for anyone looking for fresh meal ideas. Choose a food preference, then explore recipes from around the world.
 
-## 本地预览
+## Features
 
-直接用浏览器打开 `index.html` 即可，无需安装依赖或启动服务。
+- Discover a random recipe and shuffle for another idea
+- Filter recipes by light meals, high protein, under 30 minutes, or vegetarian options
+- Switch between Chinese and English; your language choice is saved in the browser
+- View each recipe's description, cooking time, estimated calories, and tags
+- Responsive layout for desktop and mobile screens
 
-## 功能
+## Run locally
 
-- 随机推荐世界各地食谱，再次点击即可换一道
-- 支持中文和 English 切换，并记住用户的语言选择
-- 按清爽轻食、高蛋白、30 分钟内和素食友好筛选
-- 展示料理介绍、准备时间、热量和难度
-- 适配手机和桌面屏幕
+Open `index.html` in a web browser. No installation or build step is required.
 
-## 文件
+## Project files
 
-- `index.html` 页面结构
-- `style.css` 样式与响应式布局
-- `script.js` 食谱数据和交互逻辑
+- `index.html` — page structure
+- `style.css` — styling and responsive layout
+- `script.js` — recipe data, language translations, and interactions
