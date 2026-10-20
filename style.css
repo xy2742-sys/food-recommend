@@ -3,3 +3,44 @@
 .header-tools{display:flex;align-items:center;gap:20px}.language-switch{height:34px;display:flex;align-items:center;gap:6px;padding:0 9px;border:1px solid var(--line);border-radius:8px;background:#fff;color:#758072}.language-switch>span{font-size:13px}.language-switch select{appearance:none;border:0;outline:0;background:transparent;color:var(--ink);font:500 11px "DM Sans","Noto Sans SC",sans-serif;cursor:pointer;padding:5px 1px}.language-switch:focus-within{border-color:#9caf97;box-shadow:0 0 0 3px #476b4d13}
 @media(max-width:760px){.header-tools{gap:10px}.top-note{font-size:10px}.language-switch{height:32px;padding:0 7px}.brand{font-size:15px}}
 @media(max-width:380px){.top-note{display:none}}
+
+/* Keep the meal recommendation visually primary and the filters secondary. */
+.discover{max-width:860px;margin-top:42px}
+.controls{gap:16px;margin-bottom:15px}
+.control-heading{align-items:center;gap:12px}
+.control-heading>span{width:27px;height:27px;display:grid;place-items:center;border:1px solid #e5e8df;border-radius:8px;background:#fff;color:#899283;margin-top:0}
+.control-heading strong{font-size:12px;color:#59675b}
+.control-heading small{font-size:10px;color:#a0a399}
+.filter-list{gap:7px}
+.filter{padding:7px 10px;border-color:#edeee9;background:#fdfdfa;color:#858b80;font-size:9px}
+.filter.active{background:#eef3ea;border-color:#dce7d7;color:#527052}
+.filter:focus-visible,.shuffle-button:focus-visible,.language-switch select:focus-visible{outline:3px solid #9cb795;outline-offset:3px}
+.recipe-card{grid-template-columns:40% 60%;min-height:360px;border-color:#e9ebe3;border-radius:20px;box-shadow:0 18px 52px #37452c12}
+.recipe-art{min-height:360px}
+.recipe-content{padding:34px 38px 28px}
+.recipe-meta{min-height:22px}
+.region-label{padding:6px 9px;border-radius:6px;background:#f2f5ee}
+.rating{padding:6px 9px;border-radius:6px;background:#fbf6ea}
+.recipe-content h2{font-size:30px;margin:19px 0 10px;letter-spacing:-1.1px}
+.recipe-description{font-size:13px;line-height:1.85;max-width:390px}
+.recipe-details{gap:22px;margin-top:24px;padding-bottom:19px;font-size:10px}
+.recipe-tags{gap:8px;margin-top:16px}
+.recipe-tags span{padding:6px 10px}
+.card-actions{gap:14px;padding-top:22px}
+.shuffle-button{height:46px;padding:0 17px;font-size:12px;box-shadow:0 5px 12px #355c3b20}
+.shuffle-icon{font-size:19px}
+.shuffle-hint{font-size:10px;color:#969d91}
+.bottom-note{margin-top:22px}
+@media(max-width:760px){
+  .discover{margin-top:32px}
+  .controls{gap:12px;margin-bottom:13px}
+  .filter-list{gap:6px}
+  .filter{padding:8px 10px}
+  .recipe-card{grid-template-columns:1fr;min-height:0}
+  .recipe-art{min-height:230px}
+  .recipe-content{padding:25px 23px 23px;min-height:300px}
+  .recipe-content h2{font-size:26px;margin:14px 0 9px}
+  .recipe-details{gap:15px;margin-top:18px;padding-bottom:16px}
+  .card-actions{padding-top:18px}
+  .shuffle-button{height:44px}
+}
